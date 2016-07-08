@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.6)  7 JUL 2016 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.6)  8 JUL 2016 21:59
 entering extended mode
 **./NKOS2016.tex
 (NKOS2016.tex
@@ -276,27 +276,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (NKOS2016.bbl
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<degree16.png, id=10, 345.08925pt x 245.718pt>
+File: degree16.png Graphic file (type png)
+ <use degree16.png>
+Package pdftex.def Info: degree16.png used on input line 156.
+(pdftex.def)             Requested size: 242.98541pt x 173.01749pt.
+ [2]
+<betweenness.png, id=17, 360.1455pt x 243.309pt>
+File: betweenness.png Graphic file (type png)
+ <use betweenness.png>
+Package pdftex.def Info: betweenness.png used on input line 165.
+(pdftex.def)             Requested size: 242.98541pt x 164.15594pt.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 5.
-
-) [2] (NKOS2016.aux) ) 
+<network.png, id=18, 370.986pt x 352.9185pt>
+File: network.png Graphic file (type png)
+ <use network.png>
+Package pdftex.def Info: network.png used on input line 174.
+(pdftex.def)             Requested size: 242.98541pt x 231.14984pt.
+ [3 <./degree16.png>] [4 <./betweenness.png> <./network.png>] (NKOS2016.bbl) [5
+] (NKOS2016.aux) ) 
 Here is how much of TeX's memory you used:
- 2363 strings out of 493335
- 31339 string characters out of 3139270
- 97623 words of memory out of 3000000
- 5862 multiletter control sequences out of 15000+200000
- 7323 words of font info for 29 fonts, out of 3000000 for 9000
+ 2402 strings out of 493335
+ 31830 string characters out of 3139270
+ 102653 words of memory out of 3000000
+ 5891 multiletter control sequences out of 15000+200000
+ 10126 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,26p,347b,185s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on NKOS2016.pdf (2 pages, 72769 bytes).
+ 40i,9n,26p,787b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmtt9.pfb>
+Output written on NKOS2016.pdf (5 pages, 311197 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

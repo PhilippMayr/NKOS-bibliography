@@ -1,5 +1,16 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem{Mayr2016}
+Mayr, P., Tudhope, D., Clarke, S.D., Zeng, M.L., Lin, X.: {Recent applications
+  of Knowledge Organization Systems: introduction to a special issue}.
+  International Journal on Digital Libraries  17(1),  1--4 (2016),
+  \url{http://link.springer.com/10.1007/s00799-015-0167-x}
+
+\bibitem{Zeng2004}
+Zeng, M.L., Chan, L.M.: {Trends and Issues in Establishing Interoperability
+  Among Knowledge Organization Systems}. Journal of the American Society for
+  Information Science and Technology  55(3),  377--395 (2004)
 
 \end{thebibliography}
