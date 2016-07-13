@@ -52,8 +52,8 @@
 
 
 \begin{abstract}		
-In this paper we analyse a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset "the NKOS bibliography" includes 14 workshop programmes (ECDL 2000-2010, TPDL 2011-2015) and 4 special  issues on NKOS (2001, 2004, 2006 and 2015) which cover in total n %add number
-papers with n %add number
+In this paper we analyse a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset "the NKOS bibliography" includes 14 workshop programmes (ECDL 2000-2010, TPDL 2011-2015) and 4 special  issues on NKOS (2001, 2004, 2006 and 2015) which cover in total 171 %add number
+papers with 218 %add number
 single authors. A focus of the analysis is the development of collaboration, core authors and topics in this interdisciplinary field. %be more precise
 
 %add some more facts
@@ -144,37 +144,53 @@ Table provides an overview of all papers in the special issues.
 
 
 \section{Analysis}\label{analysis}
-Description of the types of analyses %fakhri
+Description of the types of analyses
+In order to analyze the collaboration in the community of NKOS workshops we build a network of all authors in this community and computed the centrality of each author. For this purpose we utilized some centralities measurement in Pajek\footnote{A program for analysis and visualization of very large networks(http://mrvar.fdv.uni-lj.si/pajek/)} . The network is composed  of pairs of author names. Each pair means that two authors cooperated to write the paper. For a paper with n authors, there are n*(n-1) pairs. These pairs built the network for analysis in Pajek. to avoid repetation for pairs, we gave weight to pairs and it is equal to number of cooperations for two authors in different papers. 
+Three used centrality measures of author are degree, betweenness and closeness. Degree is the number of nodes that a focal node is connected to, and measures the involvement of the node in the network\cite{Opsahl2010}. In our authorship-network it specifies the sum of co-authors for all papers that each author has written. betweenness, assess the degree to which a node lies on the shortest path between two other nodes, and are able to funnel the flow in the network\cite{Opsahl2010}. In the authorship-network the author with high betweenness has a large influence on the transfer of information. 
+
+%fakhri
 
 \section{Results}\label{results}
 Describing the results %fakhri
-
-
-
+Figure \ref{fig:wholenet} demonstrates a general view of the network. In this view each author has at least one co-author. From the network illustrated in this Figure we selected the largest component thats is represent in Figure\ref{fig:largestComponent}. 68 author are in this component.
 \begin{figure}
-\centering
-\includegraphics[width=0.7\linewidth]{degree16}
-\caption{}
-\label{fig:degree16}
+	\centering
+	\includegraphics[width=1.0\linewidth]{wholeNet}
+	\caption{The whole network of authors in community of NKOS workshops visualized in Pajek}
+	\label{fig:wholenet}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{largestComponent}
+	\caption{argest component in the NKOS authorship-network}
+	\label{fig:largestComponent}
+\end{figure}
+To show the quantity of collaboration in the community we measured the degree centrality for each author. Figure\ref{fig:degreePercentage} shows Percentage of authors with different degrees. From the Figure we see that 15\% (with degree=0) of authors had no collaboration with others and 53\% of them had just maximum 6 cooperations with other authors. Only 32\% had with at least 8 co-authors for all their papers. \\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{degreePercentage}
+	\caption{}
+	\label{fig:degreePercentage}
 \end{figure}
 
-...
+Figure \ref{fig:degree16} shows the authors with most degree (more than 16) in the network. \\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{degree16}
+	\caption{Authors with degree more than 16 in the community of NKOS workshops}
+	\label{fig:degree16}
+\end{figure}
+To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} indicate the authors with most betweenness (more than 0.001).
 
 \begin{figure}
 \centering
 \includegraphics[width=0.7\linewidth]{betweenness}
-\caption{}
+\caption{Authors with betweenness more than 0.001 in the community of NKOS workshops}
 \label{fig:betweenness}
 \end{figure}
 
-...
 
-\begin{figure}
-\centering
-\includegraphics[width=0.7\linewidth]{network}
-\caption{}
-\label{fig:network}
-\end{figure}
+
 
 
 
