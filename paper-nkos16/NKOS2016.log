@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.2)  14 JUL 2016 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.2)  14 JUL 2016 10:34
 entering extended mode
 **NKOS2016.tex
 (NKOS2016.tex
@@ -291,9 +291,6 @@ File: betweenness.png Graphic file (type png)
  <use betweenness.png>
 Package pdftex.def Info: betweenness.png used on input line 186.
 (pdftex.def)             Requested size: 242.98541pt x 164.15594pt.
-
-Underfull \vbox (badness 3503) has occurred while \output is active []
-
  [6 <./degreePercentage.png> <./degree16.png>] [7 <./betweenness.png>] (NKOS201
 6.bbl)
 [8] (NKOS2016.aux) ) 
@@ -312,7 +309,7 @@ m/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on NKOS2016.pdf (8 pages, 564857 bytes).
+Output written on NKOS2016.pdf (8 pages, 565083 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
