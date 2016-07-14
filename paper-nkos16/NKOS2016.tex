@@ -53,9 +53,7 @@
 
 
 \begin{abstract}		
-In this paper we analyse a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset "the NKOS bibliography" includes 14 workshop programmes (ECDL 2000-2010, TPDL 2011-2015) and 4 special  issues on NKOS (2001, 2004, 2006 and 2015) which cover in total 171 %add number
-papers with 218 %add number
-single authors. A focus of the analysis is the development of collaboration, core authors and topics in this interdisciplinary field. %be more precise
+In this paper we analyse a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset "the NKOS bibliography" includes 14 workshop programmes (ECDL 2000-2010, TPDL 2011-2015) and 4 special  issues on NKOS (2001, 2004, 2006 and 2015) which cover in total 171 papers with 218 single authors. A focus of the analysis is the development of collaboration, core authors and topics in this interdisciplinary field. %be more precise
 
 %add some more facts
  
@@ -80,9 +78,7 @@ For our analysis we have compiled an open dataset the "NKOS bibliography"\footno
 
 In a first step we have extracted all paper titles presented at the NKOS workshop websites. We manually disambiguated author names. We added the papers from the special issues. These paper are the only formal publications in our analysis.
 
-Our dataset covers in total n %add number
-papers with n %add number
-single authors.
+Our dataset covers in total 171 papers with 218 single authors.
 
 Table provides an overview of all workshop papers.
 
@@ -129,13 +125,13 @@ Table provides an overview of all papers in the special issues.
 	\hline 
 	venue& papers  & authors  \\ 
 	\hline 
-	SI 2001&  &  \\ 
+	JODI 2001&  &  \\ 
 	\hline 
-	ECDL 2004&  &  \\ 
+	JODI 2004&  &  \\ 
 	\hline 
-	ECDL 2006&  &  \\ 
+	NREW 2006&  &  \\ 
 	\hline 
-	ECDL 2015&  &  \\ 
+	IJDL 2015&  &  \\ 
 	\hline 
 \end{tabular} 
 
@@ -145,7 +141,7 @@ Table provides an overview of all papers in the special issues.
 
 
 \section{Analysis}\label{analysis}
-In order to analyze the collaboration in the community of NKOS workshops we built a network of all authors in this community and computed the centrality of each author. For this purpose we utilized some centrality measures in Pajek\footnote{A program for analysis and visualization of very large networks(http://mrvar.fdv.uni-lj.si/pajek/)} . The network is composed  of pairs of author names. Each pair means that two authors cooperated for writing a paper. For a paper with n authors, there are n*(n-1) pairs. These pairs built the network for analysis in Pajek. to avoid repetition of pairs, we gave weight to pairs and it is equal to number of cooperations for two authors in different papers. 
+In order to analyze the collaboration in the community of NKOS workshops we built a network of all authors in this community and computed the centrality of each author. For this purpose we utilized some centrality measures in Pajek\footnote{A program for analysis and visualization of very large networks(http://mrvar.fdv.uni-lj.si/pajek/)}. The network is composed of pairs of author names. Each pair means that two authors cooperated for writing a paper. For a paper with n authors, there are n*(n-1) pairs. These pairs built the network for analysis in Pajek. to avoid repetition of pairs, we gave weight to pairs and it is equal to number of cooperations for two authors in different papers. 
 Two used centrality measures of authors are degree and betweenness. Degree is the number of nodes that a focal node is connected to, and measures the involvement of the node in the network\cite{Opsahl2010}. In our authorship-network it specifies the sum of co-authors for all papers that each author has written. betweenness, assess the degree to which a node lies on the shortest path between two other nodes, and are able to funnel the flow in the network\cite{Opsahl2010}. In the authorship-network the author with high betweenness has a large influence on the transfer of information. 
 
 %fakhri
@@ -197,7 +193,7 @@ To detect the influence of authors on information exchange we calculated the bet
 ...%both
 
 \section{Acknowledgment}\label{sec:ACKNOWLEDGMENTS}
-...
+We thanks our colleague Julia Achenbach at GESIS who helped us to compile and correct the data set.
 
 \newpage
 
