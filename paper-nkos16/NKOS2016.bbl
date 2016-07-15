@@ -1,6 +1,26 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem{SPCranefield2001}
+Cranefield, S.: Networked knowledge representation and exchange using uml and
+  rdf. Journal of Digital Information  (2001),
+  \url{https://journals.tdl.org/jodi/index.php/jodi/article/view/30}
+
+\bibitem{SPSoergel2004}
+Dagobert~Soergel, Boris~Lauser, A.L.F.F.J.K., Katz, S.: Reengineering thesauri
+  for new applications: the agrovoc example. Journal of Digital Information
+  (2004), \url{https://journals.tdl.org/jodi/index.php/jodi/article/view/112}
+
+\bibitem{SPDoerr2001}
+Doerr, M.: Semantic problems of thesaurus mapping. Journal of Digital
+  Information  (2001),
+  \url{https://journals.tdl.org/jodi/index.php/jodi/article/view/31}
+
+\bibitem{SPTudhope2001}
+Douglas~Tudhope, H.A., Jones, C.: Augmenting thesaurus relationships:
+  possibilities for retrieval. Journal of Digital Information  (2001),
+  \url{https://journals.tdl.org/jodi/index.php/jodi/article/view/181/160}
 
 \bibitem{Hill2001}
 Hill, L., Koch, T.: {Networked Knowledge Organization Systems: introduction to
@@ -17,6 +37,12 @@ Mayr, P., Tudhope, D., Clarke, S.D., Zeng, M.L., Lin, X.: {Recent applications
 Opsahl, T., Agneessens, F., Skvoretz, J.: Node centrality in weighted networks:
   Generalizing degree and shortest paths. Social Networks  32(3),  245--251
   (2010), \url{http://dx.doi.org/10.1016/j.socnet.2010.03.006}
+
+\bibitem{SPTrant2006}
+Trant, J., with the participants in the~steve.museum project: Exploring the
+  potential for social tagging and folksonomy in art museums: Proof of concept.
+  New Review of Hypermedia and Multimedia  (2006),
+  \url{http://www.tandfonline.com/doi/abs/10.1080/13614560600802940}
 
 \bibitem{Tudhope2004}
 Tudhope, D., Koch, T.: {New Applications of Knowledge Organization Systems:
