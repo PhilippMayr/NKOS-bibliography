@@ -53,38 +53,34 @@
 
 
 \begin{abstract}		
-In this paper we analyse a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset "the NKOS bibliography" includes 14 workshop programmes (ECDL 2000-2010, TPDL 2011-2015) and 4 special  issues on NKOS (2001, 2004, 2006 and 2015) which cover in total 171 papers with 218 single authors. A focus of the analysis is the development of collaboration, core authors and topics in this interdisciplinary field. %be more precise
+In this paper we analyze a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset, the "NKOS bibliography", includes 14 workshop agendas (ECDL 2000-2010, TPDL 2011-2015) and 4 special issues on NKOS (2001, 2004, 2006 and 2015) which cover 171 papers with 218 distinct authors in total. A focus of the analysis is the visualization of coauthorship networks in this interdisciplinary field. We used standard network analytic measures like degree and betweenness centrality to describe the coauthorship distribution in our NKOS dataset. %todo add some more facts
 
-%add some more facts
+
  
-\keywords{NKOS workshops, Special issues, Output analysis, Network analysis, Central authors, Collaboration}
+\keywords{NKOS workshops, Output analysis, Network analysis, Central authors, Collaboration}
 \end{abstract}
 
 
 \section{Introduction}\label{intro}
-%intro and motivation %philipp
 
 The European NKOS network has held a long-running series of annual workshops at the European Conference on Digital Libraries (ECDL), latterly reformed as the International Conference on Theory and Practice of Digital Libraries (TPDL). 
-Typically, recent advances of KOS have been reported at the NKOS workshops, e.g. including the Simple Knowledge Organization System (SKOS) W3C standard, the ISO 25964 thesauri standard, the CIDOC Conceptual Reference Model (CRM), Linked Data applications, KOS-based recommender systems, KOS mapping techniques, KOS registries and metadata, social tagging, user-centred issues, and many other topics. A comprehensive and well cited review article on KOS was published in 2004 \cite{Zeng2004}. Special issues on Networked Knowledge Organization Systems (NKOS) have been published in Journal of Digital Information in 2001 and 2004, in New Review of Hypermedia and Multimedia in 2006 and in the International Journal of Digital Libraries in 2015 \cite{Mayr2016}. 
+Typically, recent advances of KOS have been reported at the NKOS workshops, e.g. including the Simple Knowledge Organization System (SKOS) W3C standard, the ISO 25964 thesauri standard, the CIDOC Conceptual Reference Model (CRM), Linked Data applications, KOS-based recommender systems, KOS mapping techniques, KOS registries and metadata, social tagging, user-centred issues, and many other topics. A comprehensive and well cited review article on KOS and NKOS topics was published in 2004 \cite{Zeng2004}. Special issues on Networked Knowledge Organization Systems (NKOS) have been published in Journal of Digital Information in 2001 and 2004, in New Review of Hypermedia and Multimedia in 2006 and in the International Journal of Digital Libraries in 2015 \cite{Mayr2016}. 
 
-The motivation of this paper is to analyse the research output of the NKOS community. We are focusing on the informal part of this output, the presentations given the workshops. The specialty of this output is that these research papers typically are not published in journals or conference proceedings, these papers appear just as oral presentations at the workshop and are documented on the website. To our knowledge nobody has done an analysis on this part of the research output before. 
+The motivation of this paper is to analyse the research output of the NKOS community. We are focusing on the informal part of this output, the paper presentations given at the past NKOS workshops (the first European NKOS workshop in 2000 to the 14th European NKOS workshop in 2015). The specialty of this research output is that these research papers typically are not published in journals or conference proceedings. These papers appear just as oral presentations at the workshop and are documented on the website. To our knowledge nobody has done an analysis on this part of the NKOS research output before. 
 
 
 
 \section{NKOS workshop bibliography}\label{dataset}
-%data set description %philipp
 
-For our analysis we have compiled an open dataset the "NKOS bibliography"\footnote{The NKOS workshop bibliography is maintained in the following github repository: https://github.com/PhilippMayr/NKOS-bibliography} which includes 14 workshop programmes with all presented papers at ECDL 2000, 2003-2010 and TPDL 2011-2015. We added papers from 4 special issues on NKOS which have been published in the same period.
+For our analysis we have compiled an open dataset the "NKOS bibliography"\footnote{The NKOS workshop bibliography is maintained in the following github repository: https://github.com/PhilippMayr/NKOS-bibliography} which includes 14 workshop programmes with all presented papers at ECDL 2000, ECDL 2003-2010 and TPDL 2011-2015 (see Table 1). We added papers from 4 special issues on NKOS which have been published in the same period (see Table 2). 
 
-In a first step we have extracted all paper titles presented at the NKOS workshop websites. We manually disambiguated author names. We added the papers from the special issues. These paper are the only formal publications in our analysis.
+In a first step we have extracted all paper titles presented at the NKOS workshop websites. We added papers from the special issues. These papers are the only formal publications in our analysis.  In the end we manually disambiguated author names of all papers.
 
-Our dataset covers in total 171 papers with 218 single authors.
+Our dataset covers 171 papers in total with altogether 218 distinct author names. Table 1 provides an overview of all workshop papers. 
 
-Table provides an overview of all workshop papers.
-
-%include an overview table (venue;# of papers;# of authors; av # of authors)
-
-\begin{tabular}	{|c|c|c|}
+\begin{table}
+	\caption{Overview of all NKOS workshop papers}
+\begin{tabular}	{|c|c|c|}		%todo Fakhri fill in numbers
 	\hline 
 	venue& papers  & authors  \\ 
 	\hline 
@@ -117,11 +113,15 @@ Table provides an overview of all workshop papers.
 	TPDL 2015&  &  \\ 
 	\hline 
 \end{tabular} 
+\label{tab:workshops}
+\end{table}
 
 
-Table provides an overview of all papers in the special issues.
+Table 2 provides an overview of all papers in the special issues. 
 
-\begin{tabular}{|c|c|c|}
+\begin{table}
+	\caption{Overview of all NKOS special issue papers}
+\begin{tabular}{|c|c|c|}  %todo Fakhri fill in numbers
 	\hline 
 	venue& papers  & authors  \\ 
 	\hline 
@@ -134,48 +134,58 @@ Table provides an overview of all papers in the special issues.
 	IJDL 2015&  &  \\ 
 	\hline 
 \end{tabular} 
+\label{tab:SI}
+\end{table}
 
-
-%The most cited NKOS papers in this time: Zeng, Dörr ... Koch 
-
+%Check the citation counts of the SI papers in WoS/Google scholar.  
 
 
 \section{Analysis}\label{analysis}
-In order to analyze the collaboration in the community of NKOS workshops we built a network of all authors in this community and computed the centrality of each author. For this purpose we utilized some centrality measures in Pajek\footnote{A program for analysis and visualization of very large networks(http://mrvar.fdv.uni-lj.si/pajek/)}. The network is composed of pairs of author names. Each pair means that two authors cooperated for writing a paper. For a paper with n authors, there are n*(n-1) pairs. These pairs built the network for analysis in Pajek. to avoid repetition of pairs, we gave weight to pairs and it is equal to number of cooperations for two authors in different papers. 
-Two used centrality measures of authors are degree and betweenness. Degree is the number of nodes that a focal node is connected to, and measures the involvement of the node in the network\cite{Opsahl2010}. In our authorship-network it specifies the sum of co-authors for all papers that each author has written. betweenness, assess the degree to which a node lies on the shortest path between two other nodes, and are able to funnel the flow in the network\cite{Opsahl2010}. In the authorship-network the author with high betweenness has a large influence on the transfer of information. 
 
-%fakhri
+In order to analyze the collaboration in the community of NKOS workshops we built a network of all authors in this community and computed the centrality of each author. For this purpose we utilized some standard centrality measures in Pajek\footnote{A program for analysis and visualization of very large networks(http://mrvar.fdv.uni-lj.si/pajek/)}. The network is composed of pairs of author names. Each pair means that two authors cooperated for writing a paper. For a paper with n authors, there are n*(n-1) pairs. %todo Fakhri as formular
+
+These pairs built the network for our analysis in Pajek. To avoid repetition of pairs, we gave weight to pairs and it is equal to the number of cooperations of two authors in different papers. 
+Two often used centrality measures of authors are degree and betweenness. Degree is the number of nodes that a focal node is connected to, and measures the involvement of the node in the network \cite{Opsahl2010}. In our authorship-network it specifies the sum of co-authors for all papers that each author has written. Betweenness assesses the degree to which a node lies on the shortest path between two other nodes, and is able to funnel the flow in the network \cite{Opsahl2010}. In the authorship-network the author with high betweenness has a large influence on the transfer of information. 
+
 
 \section{Results}\label{results}
-Figure \ref{fig:wholenet} demonstrates a general view of the network. In this view each author has at least one co-author. From the network illustrated in this Figure we selected the largest component thats is represent in Figure\ref{fig:largestComponent}. 68 authors(31\% of all authors) are in this component.
+
+Figure \ref{fig:wholenet} demonstrates a general view of the network. In this view each author has at least one co-author. From the network illustrated in this figure we selected the largest component that is represented in Figure \ref{fig:largestComponent}. 68 authors (31\% of all authors) are in this component.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\linewidth]{wholeNet}
-	\caption{The whole network of authors in community of NKOS workshops visualized in Pajek}
+	\caption{The whole network of authors in the NKOS community}
 	\label{fig:wholenet}
 \end{figure}
+
+To show the quantity of collaboration in the community we measured the degree centrality for each author. Figure \ref{fig:degreePercentage} shows the percentage of authors with different degrees. In this Figure we see that 15\% (with degree=0) of authors had no coauthorship with others and 53\% of them had just a maximum of 6 cooperations with other authors. 32\% had at least 8 co-authors for all their papers.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{largestComponent}
-	\caption{argest component in the NKOS authorship-network}
+	\includegraphics[width=0.7\linewidth]{largestComponent}
+	\caption{Largest component in the NKOS authorship-network}
 	\label{fig:largestComponent}
 \end{figure}
-To show the quantity of collaboration in the community we measured the degree centrality for each author. Figure\ref{fig:degreePercentage} shows Percentage of authors with different degrees. From the Figure we see that 15\% (with degree=0) of authors had no collaboration with others and 53\% of them had just maximum 6 cooperations with other authors. Only 32\% had with at least 8 co-authors for all their papers. \\
+
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{degreePercentage}
-	\caption{}
+	\caption{Distribution of degree numbers of authors in the network} 
 	\label{fig:degreePercentage}
 \end{figure}
 
-Figure \ref{fig:degree16} shows the authors with most degree (more than 16) in the network. \\
+Figure \ref{fig:degree16} shows the authors with most degree (more than 16) in the network. 
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{degree16}
-	\caption{Authors with degree more than 16 in the community of NKOS workshops}
+	\caption{Authors with degree more than 16}
 	\label{fig:degree16}
 \end{figure}
-To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} indicate the authors with most betweenness (more than 0.001).
+
+To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} shows the authors with the highest betweenness (more than 0.001).
 
 \begin{figure}
 \centering
@@ -187,15 +197,15 @@ To detect the influence of authors on information exchange we calculated the bet
 
 
 
-
-
 \section{Conclusion}\label{concl}
-...%both
+...%todo Fakhri start with some summary
+
+%\section{Future work}\label{future}
 
 \section{Acknowledgment}\label{sec:ACKNOWLEDGMENTS}
-We thanks our colleague Julia Achenbach at GESIS who helped us to compile and correct the data set.
+We thank our colleague Julia Achenbach at GESIS who helped us to compile and correct the data set.
 
-\newpage
+%\newpage
 
 \bibliographystyle{splncs03} % abbrev
 \bibliography{nkos} 

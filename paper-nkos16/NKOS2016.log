@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.6)  15 JUL 2016 09:03
 entering extended mode
 **./NKOS2016.tex
 (NKOS2016.tex
@@ -285,7 +285,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
  [][]\OT1/cmr/m/n/9 A pro-gram for anal-y-sis and vi-su-al-iza-tion of very lar
 ge
  []
@@ -293,75 +293,63 @@ ge
 [2] <wholeNet.png, id=15, 1523.6925pt x 1063.975pt>
 File: wholeNet.png Graphic file (type png)
  <use wholeNet.png>
-Package pdftex.def Info: wholeNet.png used on input line 153.
+Package pdftex.def Info: wholeNet.png used on input line 157.
 (pdftex.def)             Requested size: 347.12354pt x 242.38751pt.
-
-<largestComponent.png, id=17, 1057.9525pt x 988.69376pt>
-File: largestComponent.png Graphic file (type png)
-
-<use largestComponent.png>
-Package pdftex.def Info: largestComponent.png used on input line 159.
-(pdftex.def)             Requested size: 347.12354pt x 324.39926pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+<largestComponent.png, id=20, 1057.9525pt x 988.69376pt>
+File: largestComponent.png Graphic file (type png)
+
+<use largestComponent.png>
+Package pdftex.def Info: largestComponent.png used on input line 166.
+(pdftex.def)             Requested size: 242.98541pt x 227.07797pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./wholeNet.png>] <degreePercentage.png, id=25, 328.97906pt x 237.13594pt>
 File: degreePercentage.png Graphic file (type png)
 
 <use degreePercentage.png>
-Package pdftex.def Info: degreePercentage.png used on input line 166.
+Package pdftex.def Info: degreePercentage.png used on input line 174.
 (pdftex.def)             Requested size: 242.98541pt x 175.15218pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--169
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./largestComponent.png>] <degree16.png, id=30, 345.08925pt x 245.718pt>
+ <degree16.png, id=26, 345.08925pt x 245.718pt>
 File: degree16.png Graphic file (type png)
 
 <use degree16.png>
-Package pdftex.def Info: degree16.png used on input line 174.
+Package pdftex.def Info: degree16.png used on input line 183.
 (pdftex.def)             Requested size: 242.98541pt x 173.01749pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--177
+Underfull \vbox (badness 2368) has occurred while \output is active []
 
- []
-
+ [5 <./largestComponent.png> <./degreePercentage.png>]
 <betweenness.png, id=31, 360.1455pt x 243.309pt>
 File: betweenness.png Graphic file (type png)
  <use betweenness.png>
-Package pdftex.def Info: betweenness.png used on input line 182.
+Package pdftex.def Info: betweenness.png used on input line 192.
 (pdftex.def)             Requested size: 242.98541pt x 164.15594pt.
 
-Underfull \vbox (badness 3503) has occurred while \output is active []
-
- [6 <./degreePercentage.png> <./degree16.png>] [7 <./betweenness.png>] (NKOS201
-6.bbl)
-[8] (NKOS2016.aux) ) 
+(NKOS2016.bbl [6 <./degree16.png> <./betweenness.png>]) [7] (NKOS2016.aux) ) 
 Here is how much of TeX's memory you used:
- 2474 strings out of 493335
- 32895 string characters out of 3139270
- 106039 words of memory out of 3000000
- 5957 multiletter control sequences out of 15000+200000
+ 2478 strings out of 493335
+ 32938 string characters out of 3139270
+ 105055 words of memory out of 3000000
+ 5961 multiletter control sequences out of 15000+200000
  10126 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,9n,26p,787b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmtt9.pfb>
-Output written on NKOS2016.pdf (8 pages, 569558 bytes).
+ 40i,9n,26p,803b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmtt9.pfb>
+Output written on NKOS2016.pdf (7 pages, 569732 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
