@@ -81,7 +81,7 @@ Our dataset covers 171 papers in total with altogether 218 distinct author names
 \begin{table}
 	\centering
 	\caption{Overview of all NKOS workshop papers}
-\begin{tabular}	{|c|c|c|}		%todo Fakhri fill in numbers
+\begin{tabular}	{|c|c|c|}		
 	\hline 
 	venue& papers  & authors  \\ 
 	\hline 
@@ -123,7 +123,7 @@ Table 2 provides an overview of all papers in the special issues.
 \begin{table}
 	\centering
 	\caption{Overview of all NKOS special issue papers}
-\begin{tabular}{|c|c|c|}  %todo Fakhri fill in numbers
+\begin{tabular}{|c|c|c|}  
 	\hline 
 	venue& papers  & authors  \\ 
 	\hline 
@@ -144,7 +144,7 @@ Table 2 provides an overview of all papers in the special issues.
 
 \section{Analysis}\label{analysis}
 
-In order to analyze the collaboration in the community of NKOS workshops we built a network of all authors in this community and computed the centrality of each author. For this purpose we utilized some standard centrality measures in Pajek\footnote{A program for analysis and visualization of very large networks(http://mrvar.fdv.uni-lj.si/pajek/)}. The network is composed of pairs of author names. Each pair means that two authors cooperated for writing a paper. If we have n papers and the paper \textit{i} has $m_i$ authors, the number of pairs are %todo Fakhri as formular
+In order to analyze the collaboration in the community of NKOS workshops we built a network of all authors in this community and computed the centrality of each author. For this purpose we utilized some standard centrality measures in Pajek\footnote{A program for analysis and visualization of very large networks(http://mrvar.fdv.uni-lj.si/pajek/)}. The network is composed of pairs of author names. Each pair means that two authors cooperated for writing a paper. If we have n papers and the paper \textit{i} has $m_i$ authors, the number of pairs are 
 \begin{equation}\sum\limits_{i=1}^n \frac{m_i(m_i-1)}{2}\end{equation}
 These pairs built the network for our analysis in Pajek. To avoid repetition of pairs, we gave weight to pairs and it is equal to the number of cooperations of two authors in different papers. 
 Two often used centrality measures of authors are degree and betweenness. Degree is the number of nodes that a focal node is connected to, and measures the involvement of the node in the network \cite{Opsahl2010}. In our authorship-network it specifies the sum of co-authors for all papers that each author has written. Betweenness assesses the degree to which a node lies on the shortest path between two other nodes, and is able to funnel the flow in the network \cite{Opsahl2010}. In the authorship-network the author with high betweenness has a large influence on the transfer of information. 
@@ -154,7 +154,7 @@ Two often used centrality measures of authors are degree and betweenness. Degree
 
 Figure \ref{fig:wholenet} demonstrates a general view of the network. In this view each author has at least one co-author. This networks contains 31 components. From the network illustrated in this figure we selected the largest component that is represented in Figure \ref{fig:largestComponent}. 68 authors (31\% of all authors) are in this component.
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includegraphics[width=1.0\linewidth]{wholeNet}
 	\vspace{-0.5em}
@@ -189,15 +189,13 @@ Figure \ref{fig:degree16} shows the authors with most degree (more than 16) in t
 \end{figure}
 
 
-To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} shows the authors with the highest betweenness (more than 0.001).
-
-To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} indicates the authors with most betweenness (more than 0.001). comparing betweenness with degree we can see, the ranking of authors has changed in betweenness. Some authors despite their high cooperation with other authors, have lower ranking in betweenness comparison to others with lower degree. 
+To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} indicates the authors with most betweenness (more than 0.001). Comparing betweenness with degree we can see, the ranking of authors has changed in betweenness. Some authors despite their high cooperation with other authors, have lower ranking in betweenness comparison to others with lower degree. 
 
 
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth]{betweenness}
-\caption{Authors with betweenness more than 0.001 in the community of NKOS workshops}
+\caption{Authors with betweenness more than 0.001}
 \label{fig:betweenness}
 \end{figure}
 
@@ -212,7 +210,7 @@ In this paper we analyzed the collaborative working of authors and their connect
 \section{Acknowledgment}\label{sec:ACKNOWLEDGMENTS}
 We thank our colleague Julia Achenbach at GESIS who helped us to compile and correct the data set.
 
-%\newpage
+\newpage
 
 \bibliographystyle{splncs03} % abbrev
 \bibliography{nkos} 
