@@ -2,6 +2,11 @@
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
+\bibitem{Hill2001}
+Hill, L., Koch, T.: {Networked Knowledge Organization Systems: introduction to
+  a special issue}. Journal of Digital Information  1(8) (2001),
+  \url{https://journals.tdl.org/jodi/index.php/jodi/article/view/32/33}
+
 \bibitem{Mayr2016}
 Mayr, P., Tudhope, D., Clarke, S.D., Zeng, M.L., Lin, X.: {Recent applications
   of Knowledge Organization Systems: introduction to a special issue}.
@@ -12,6 +17,17 @@ Mayr, P., Tudhope, D., Clarke, S.D., Zeng, M.L., Lin, X.: {Recent applications
 Opsahl, T., Agneessens, F., Skvoretz, J.: Node centrality in weighted networks:
   Generalizing degree and shortest paths. Social Networks  32(3),  245--251
   (2010), \url{http://dx.doi.org/10.1016/j.socnet.2010.03.006}
+
+\bibitem{Tudhope2004}
+Tudhope, D., Koch, T.: {New Applications of Knowledge Organization Systems:
+  introduction to a special issue}. Journal of Digital Information  4(4)
+  (2004),
+  \url{https://journals.tdl.org/jodi/index.php/jodi/article/view/109/108}
+
+\bibitem{Tudhope2006}
+Tudhope, D., {Lykke Nielsen}, M.: {Introduction to Knowledge Organization
+  Systems and Services}. New Review of Hypermedia and Multimedia  12(1),  3--9
+  (2006)
 
 \bibitem{Zeng2004}
 Zeng, M.L., Chan, L.M.: {Trends and Issues in Establishing Interoperability
