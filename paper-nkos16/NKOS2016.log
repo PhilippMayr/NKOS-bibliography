@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.6)  15 JUL 2016 09:03
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.2)  14 JUL 2016 10:34
+>>>>>>> origin/master
 entering extended mode
 **./NKOS2016.tex
 (NKOS2016.tex
@@ -329,14 +333,21 @@ File: betweenness.png Graphic file (type png)
  <use betweenness.png>
 Package pdftex.def Info: betweenness.png used on input line 192.
 (pdftex.def)             Requested size: 242.98541pt x 164.15594pt.
+<<<<<<< HEAD
 
 (NKOS2016.bbl [6 <./degree16.png> <./betweenness.png>]) [7] (NKOS2016.aux) ) 
+=======
+ [6 <./degreePercentage.png> <./degree16.png>] [7 <./betweenness.png>] (NKOS201
+6.bbl)
+[8] (NKOS2016.aux) ) 
+>>>>>>> origin/master
 Here is how much of TeX's memory you used:
  2478 strings out of 493335
  32938 string characters out of 3139270
  105055 words of memory out of 3000000
  5961 multiletter control sequences out of 15000+200000
  10126 words of font info for 40 fonts, out of 3000000 for 9000
+<<<<<<< HEAD
  1141 hyphenation exceptions out of 8191
  40i,9n,26p,803b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:
@@ -348,6 +359,18 @@ fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 msfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmtt9.pfb>
 Output written on NKOS2016.pdf (7 pages, 569732 bytes).
+=======
+ 1025 hyphenation exceptions out of 8191
+ 29i,9n,26p,785b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on NKOS2016.pdf (8 pages, 565083 bytes).
+>>>>>>> origin/master
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
