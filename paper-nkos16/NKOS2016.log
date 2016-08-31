@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.6)  22 AUG 2016 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.6)  31 AUG 2016 11:18
 entering extended mode
 **./NKOS2016.tex
 (NKOS2016.tex
@@ -282,7 +282,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (3.30379pt too wide) in paragraph at lines 60--61
+Overfull \hbox (3.30379pt too wide) in paragraph at lines 59--60
 \OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 European NKOS work-shops, Out-put anal-
 y-sis, Net-work anal-
  []
@@ -291,60 +291,63 @@ y-sis, Net-work anal-
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
  [][]\OT1/cmr/m/n/9 See readme for de-tails on the work-shops un-der
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
  [][]\OT1/cmr/m/n/9 A pro-gram for anal-y-sis and vi-su-al-iza-tion of very lar
 ge net-works
  []
 
-<wholeNet.png, id=15, 1523.6925pt x 1063.975pt>
+[2] [3] <wholeNet.png, id=18, 1523.6925pt x 1063.975pt>
 File: wholeNet.png Graphic file (type png)
  <use wholeNet.png>
-Package pdftex.def Info: wholeNet.png used on input line 163.
+Package pdftex.def Info: wholeNet.png used on input line 164.
 (pdftex.def)             Requested size: 347.12354pt x 242.38751pt.
 
-<largestComponent.png, id=17, 1057.9525pt x 988.69376pt>
+<largestComponent.png, id=20, 1057.9525pt x 988.69376pt>
 File: largestComponent.png Graphic file (type png)
 
 <use largestComponent.png>
-Package pdftex.def Info: largestComponent.png used on input line 173.
+Package pdftex.def Info: largestComponent.png used on input line 175.
 (pdftex.def)             Requested size: 312.40906pt x 291.94878pt.
- [3]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
 Overfull \vbox (51.21027pt too high) has occurred while \output is active []
 
 
-[4 <./wholeNet.png> <./largestComponent.png>]
-<degreePercentage.png, id=31, 328.97906pt x 237.13594pt>
+[5 <./wholeNet.png> <./largestComponent.png>]
+<degreePercentage.png, id=34, 328.97906pt x 237.13594pt>
 File: degreePercentage.png Graphic file (type png)
 
 <use degreePercentage.png>
-Package pdftex.def Info: degreePercentage.png used on input line 182.
+Package pdftex.def Info: degreePercentage.png used on input line 186.
 (pdftex.def)             Requested size: 208.27623pt x 150.13457pt.
- <degree16.png, id=32, 345.08925pt x 245.718pt>
+ <degree16.png, id=35, 345.08925pt x 245.718pt>
 File: degree16.png Graphic file (type png)
 
 <use degree16.png>
-Package pdftex.def Info: degree16.png used on input line 191.
+Package pdftex.def Info: degree16.png used on input line 195.
 (pdftex.def)             Requested size: 277.69987pt x 197.7482pt.
- [5 <./degreePercentage.png> <./degree16.png>]
-<betweenness.png, id=37, 360.1455pt x 243.309pt>
+ [6 <./degreePercentage.png> <./degree16.png>]
+<betweenness.png, id=40, 360.1455pt x 243.309pt>
 File: betweenness.png Graphic file (type png)
  <use betweenness.png>
-Package pdftex.def Info: betweenness.png used on input line 201.
+Package pdftex.def Info: betweenness.png used on input line 207.
 (pdftex.def)             Requested size: 277.69987pt x 187.61952pt.
- [6 <./betweenness.png>] [7] (NKOS2016.bbl) [8] (NKOS2016.aux) ) 
+ [7 <./betweenness.png>] [8] (NKOS2016.bbl) [9] (NKOS2016.aux) ) 
 Here is how much of TeX's memory you used:
  2489 strings out of 493335
  33077 string characters out of 3139270
- 105089 words of memory out of 3000000
+ 107089 words of memory out of 3000000
  5971 multiletter control sequences out of 15000+200000
  10472 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,9n,26p,799b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,9n,26p,1110b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -357,9 +360,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on NKOS2016.pdf (8 pages, 617606 bytes).
+Output written on NKOS2016.pdf (9 pages, 618960 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
