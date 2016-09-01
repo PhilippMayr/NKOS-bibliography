@@ -155,8 +155,6 @@ Two often used centrality measures of authors are degree and betweenness. Degree
 \section{Results}\label{results}
 
 Figure \ref{fig:wholenet} demonstrates a general view of the network. In this view each author has at least one co-author. This network contains 31 components. From the network illustrated in this figure we selected the largest component that is represented in Figure \ref{fig:largestComponent}. 68 authors (31\% of all authors) are connected in this component. 
-%todo Fakhri check number
-From figure \ref{fig:wholenet} we see that 58 authors (27\%) had just one paper.
 
 Figure \ref{fig:wholenet} demonstrates a general view of the network. In this view each author has at least one co-author. This network contains 31 components. From the network illustrated in this figure we selected the largest component that is represented in Figure \ref{fig:largestComponent}. 68 authors (31\% of all authors) are connected in this component. 
 
@@ -179,7 +177,7 @@ Figure \ref{fig:wholenet} demonstrates a general view of the network. In this vi
 	\label{fig:largestComponent}
 \end{figure}
 
-To show the quantity of collaboration in the community we measured the degree centrality for each author. Figure \ref{fig:degreePercentage} shows the percentage of authors with different degrees. In this figure we see that 15\% (with degree=0) of authors had no co-authorship with others and 53\% of them had a maximum of 6 cooperations with other authors. 32\% had at least 8 co-authors for all their papers.
+To show the quantity of collaboration in the community we measured the degree centrality for each author. Figure \ref{fig:degreePercentage} shows the percentage of authors with different degrees. In this figure we see that 15\% (with degree=0) of authors had no co-authorship with others and 53\% of them had a maximum of 3 cooperations with other authors. 32\% had at least 4 co-authors for all their papers.
 
 %todo add some more details and interpretation
 
@@ -190,7 +188,7 @@ To show the quantity of collaboration in the community we measured the degree ce
 	\label{fig:degreePercentage}
 \end{figure}
 
-Figure \ref{fig:degree16} shows the authors with high degree (more than 16) in the network. 
+Figure \ref{fig:degree16} shows the authors with high degree (more than 8) in the network. 
 
 \begin{figure}[H]
 	\centering
@@ -200,11 +198,11 @@ Figure \ref{fig:degree16} shows the authors with high degree (more than 16) in t
 \end{figure}
 
 
-To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} indicates the authors with high betweenness (more than 0.001). If we compare betweenness with degree we can see that the ranking of authors has changed. We observe that some authors have lower ranking in betweenness (despite their high cooperation with other authors) in comparison to others with lower degree. 
+To detect the influence of authors on information exchange we calculated the betweenness centrality of authors. Figure \ref{fig:betweenness} indicates the authors with high betweenness (more than 0.001). If we compare betweenness with degree we can see that the ranking of authors has changed. We observe that some authors have lower ranking in betweenness (despite their high cooperation with other authors) in comparison to others with lower degree. Comparing the largest component in Figure \ref{fig:largestComponent} with Figure \ref{fig:degree16} and Figure \ref{fig:betweenness} we see that most authors with top centrality (top degree or top betweenness) are in this component. Nevertheless there are 3 authors ('Eva Méndez', 'Ceri Binding' and 'Antonie Isaac') who are not in the largest component, but are in the list of top authors for betweenness or degree centrality.
 
 %todo add some more details and interpretation
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{betweenness}
 \caption{Authors with betweenness more than 0.001}
@@ -213,7 +211,7 @@ To detect the influence of authors on information exchange we calculated the bet
 
 
 \section{Conclusion}\label{concl}
-In this paper we have started to analyze the collaborative research of authors and their connectivity to each other in the special case of European NKOS workshop activities and four special issues on NKOS. The results show most active authors in this community who had an important role in the exchange of information exchange and in connecting researchers. We saw some details of the largest component in this network that covers one third of the authors of the whole network. Our analyses show that NKOS workshops were pretty successful in bringing researchers together.  
+In this paper we have started to analyze the collaborative research of authors and their connectivity to each other in the special case of European NKOS workshop activities and four special issues on NKOS. The results show most active authors in this community who had an important role in the exchange of information exchange and in connecting researchers. We saw some details of the largest component in this network that covers one third of the authors of the whole network. Also we observed that most authors with highest centrallity(degree and betweenness) are in this component. Our analyses show that NKOS workshops were pretty successful in bringing researchers together.  
 
 %todo add some interpretation
 
