@@ -53,7 +53,7 @@
 
 
 \begin{abstract}		
-In this paper we analyze a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015 from a network analytical perspective. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset, the "NKOS bibliography", includes 14 workshop agendas (ECDL 2000-2010, TPDL 2011-2015) and 4 special issues on NKOS (2001, 2004, 2006 and 2015) which cover 171 papers with 218 distinct authors in total. A focus of the analysis is the visualization of co-authorship networks in this interdisciplinary field. We used standard network analytic measures like degree and betweenness centrality to describe the co-authorship distribution in our NKOS dataset.  We can see in our dataset that 15\% (with degree=0) of authors had no co-authorship with others and 53\% of them had a maximum of 6 cooperations with other authors. 32\% had at least 8 co-authors for all of their papers. The NKOS co-author network in the "NKOS bibliography" is a typical co-authorship network with one relatively large component, many smaller components and many isolated co-authorships or triples.
+In this paper we analyze a major part of the research output of the Networked Knowledge Organization Systems (NKOS) community in the period 2000 to 2015 from a network analytical perspective. We focus on the paper output presented at the European NKOS workshops in the last 15 years. Our open dataset, the "NKOS bibliography", includes 14 workshop agendas (ECDL 2000-2010, TPDL 2011-2015) and 4 special issues on NKOS (2001, 2004, 2006 and 2015) which cover 171 papers with 218 distinct authors in total. A focus of the analysis is the visualization of co-authorship networks in this interdisciplinary field. We used standard network analytic measures like degree and betweenness centrality to describe the co-authorship distribution in our NKOS dataset.  We can see in our dataset that 15\% (with degree=0) of authors had no co-authorship with others and 53\% of them had a maximum of 3 cooperations with other authors. 32\% had at least 4 co-authors for all of their papers. The NKOS co-author network in the "NKOS bibliography" is a typical co-authorship network with one relatively large component, many smaller components and many isolated co-authorships or triples.
 
  
 \keywords{European NKOS workshops, Output analysis, Network analysis, Central authors, Collaboration}
@@ -142,7 +142,8 @@ Table \ref{tab:SI} provides an overview of all papers in the special issues. We 
 
 In order to analyze the collaboration of the NKOS community we built a network of all authors at the workshops and special issues and computed the centrality of each author. For this purpose we utilized some standard centrality measures in Pajek\footnote{A program for analysis and visualization of very large networks (http://mrvar.fdv.uni-lj.si/pajek/)}. The network is composed of pairs of author names. Each pair means that two authors cooperated for writing a paper. If we have n papers and the paper \textit{i} has $m_i$ authors, the number of pairs are 
 
-\begin{equation}\sum\limits_{i=1}^n \frac{m_i(m_i-1)}{2}\end{equation}
+\begin{equation}\sum\limits_{i=1}^n \frac{m_i(m_i-1)}{2} \qquad \qquad \qquad if\quad m_i\ge 1\\
+\end{equation}
 
 These pairs built the network for our analysis in Pajek. To avoid repetition of pairs, we gave weight to pairs and this is equal to the number of cooperations of two authors in different papers. 
 Two often used centrality measures of authors are degree and betweenness. Degree is the number of nodes that a focal node is connected to and measures the involvement of the node in the network \cite{Opsahl2010}. In our authorship-network it specifies the sum of co-authors for all papers that each author has written. Betweenness assesses the degree to which a node lies on the shortest path between two other nodes and is able to funnel the flow in the network \cite{Opsahl2010}. In the authorship-network the author with a high betweenness has a large influence on the transfer of information. 
@@ -155,7 +156,7 @@ Figure \ref{fig:wholenet} demonstrates a general view of the network. In this vi
 	\centering
 	\includegraphics[width=1.0\linewidth]{wholeNet}
 	\vspace{-0.5em}
-	\caption{Network of authors in the European NKOS community}
+	\caption{Co-authorship network in the European NKOS community}
 	\label{fig:wholenet}
 	\vspace{-0.5em}
 \end{figure}
