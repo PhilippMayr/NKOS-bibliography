@@ -1,4 +1,4 @@
-# European NKOS Workshop content (2000-2015)
+# European NKOS Workshop content (2000-2016)
 
 Most workshop content from the past ECDL and TPDL is covered and linked on the following website:
 <http://hypermedia.research.southwales.ac.uk/kos/nkos/>
@@ -17,12 +17,16 @@ All paper presentations from the NKOS workshops are stored in single bibtex file
 * 2013 – at TPDL, Valletta, Malta.
 * 2014 – at joint TPDL & JCDL, London, England.
 * 2015 – at TPDL, Poznań, Poland.
+* 2016 - at TPDL, Hannover, Germany.
 
 Former copies of the pages of the ECDL workshops (2003-2005) could be located in the Internet Archive (see links below).
 
 * 2003 – at ECDL, Trondheim, Norway. <https://web.archive.org/web/20060515075335/http://www.glam.ac.uk/socschool/research/hypermedia/NKOS-Workshop.php>
 * 2004 – at ECDL, Bath, England. <http://web.archive.org/web/20110412085619/http://www2.db.dk/nkos-workshop/>
 * 2005 – at ECDL, Vienna, Austria. <http://web.archive.org/web/20110412154648/http://www2.db.dk/nkos2005/>
+
+## Other NKOS activities
+to be added!
 
 ## Contributing
 
