@@ -26,6 +26,10 @@ Former copies of the pages of the ECDL workshops (2003-2005) could be located in
 * 2005 – at ECDL, Vienna, Austria. <http://web.archive.org/web/20110412154648/http://www2.db.dk/nkos2005/>
 
 ## Other NKOS activities
+Special issues on NKOS (2001, 2004, 2006, 2016)
+More workshop events to be added!
+
+## US NKOS activities
 to be added!
 
 ## Contributing
