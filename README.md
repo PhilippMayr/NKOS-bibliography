@@ -3,7 +3,7 @@
 Most workshop content from the past ECDL and TPDL is covered and linked on the following website:
 <http://hypermedia.research.southwales.ac.uk/kos/nkos/>
 
-All paper presentations from the NKOS workshops are stored in single bibtex files (`ECDL[year].bib`, `TPDL[year].bib`). Introduction presentations are not covered in the bib files.
+All paper presentations from the NKOS workshops are stored in single bibtex files (`ECDL[year].bib`, `TPDL[year].bib`). Introduction presentations are not covered in the bib files. See folder bibtex.
 
 * 2000 – at ECDL (European Conference on Digital Libraries), Lisbon, Portugal.
 ... Links to the original ECDL workshops (2003-2005) are missing (see below). 
