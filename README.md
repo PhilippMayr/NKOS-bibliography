@@ -18,6 +18,7 @@ All paper presentations from the NKOS workshops are stored in single bibtex file
 * 2014 – at joint TPDL & JCDL, London, England.
 * 2015 – at TPDL, Poznań, Poland.
 * 2016 - at TPDL, Hannover, Germany.
+* 2016 - at Dublin Core, Copenhagen, Denmark.
 
 Former copies of the pages of the ECDL workshops (2003-2005) could be located in the Internet Archive (see links below).
 
