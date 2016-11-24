@@ -26,6 +26,8 @@ Former copies of the pages of the ECDL workshops (2003-2005) could be located in
 * 2004 – at ECDL, Bath, England. <http://web.archive.org/web/20110412085619/http://www2.db.dk/nkos-workshop/>
 * 2005 – at ECDL, Vienna, Austria. <http://web.archive.org/web/20110412154648/http://www2.db.dk/nkos2005/>
 
+The NKOS bibliography data set has been used in the paper "Analyzing the research output presented at European Networked Knowledge Organization Systems workshops (2000-2015)", see http://ceur-ws.org/Vol-1676/paper1.pdf at the 15th NKOS workshop in Hannover, Germany.
+
 ## Other NKOS activities
 Special issues on NKOS (2001, 2004, 2006, 2016)
 More workshop events to be added!
