@@ -42,6 +42,7 @@ Special issues on NKOS (2001, 2004, 2006, 2016)
 * 2008 - Joint NKOS-CENDI Workshop in Washington
 * 2009 - Joint NKOS-CENDI Workshop in Beltsville
 * 2012 - Joint NKOS-CENDI Workshop in Washington
+
 ## Contributing
 
 You are welcome to provide additions at GitHub: <https://github.com/PhilippMayr/NKOS-bibliography>
