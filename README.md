@@ -29,7 +29,7 @@ Former copies of the pages of the ECDL workshops (2003-2005) could be located in
 The NKOS bibliography data set has been used in the paper "Analyzing the research output presented at European Networked Knowledge Organization Systems workshops (2000-2015)", see http://ceur-ws.org/Vol-1676/paper1.pdf at the 15th NKOS workshop in Hannover, Germany.
 
 ## Other NKOS activities
-Special issues on NKOS (2001, 2004, 2006, 2016)
+Special issues on NKOS (2001, 2004, 2006, 2016), NKOS workshop at ICADL 2015 and NKOS session at ISKOUK 2011.
 
 ## US NKOS activities
 * 1998/1997 -  at the  ACM Digital Libraries Conferences [no programme available]
