@@ -34,10 +34,10 @@ Special issues on NKOS (2001, 2004, 2006, 2016), NKOS workshop at ICADL 2015 and
 ## US NKOS activities
 * 1998/1997 -  at the  ACM Digital Libraries Conferences [no programme available]
 * 1999 - ACM Digital Libraries Conference in Berkeley [to be added]
-* 2000 - ACM Digital Libraries Conference in San Antonio [to be added]
-* 2001 - JCDL in Roanoke [to be added]
-* 2002 - JCDL in Portland [to be added]
-* 2003 - JCDL in Houston [to be added]
+* 2000 - ACM Digital Libraries Conference in San Antonio 
+* 2001 - JCDL in Roanoke 
+* 2002 - JCDL in Portland 
+* 2003 - JCDL in Houston 
 * 2005 - JCDL in Denver 
 * 2008 - Joint NKOS-CENDI Workshop in Washington
 * 2009 - Joint NKOS-CENDI Workshop in Beltsville
