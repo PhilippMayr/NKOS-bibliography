@@ -43,6 +43,9 @@ Special issues on NKOS (2001, 2004, 2006, 2016), NKOS workshop at ICADL 2015 and
 * 2009 - Joint NKOS-CENDI Workshop in Beltsville
 * 2012 - Joint NKOS-CENDI Workshop in Washington
 
+## Publicatios
+In folder `publications` we store papers and data of publications which use the NKOS Bibliography dataset.
+
 ## Contributing
 
 You are welcome to provide additions at GitHub: <https://github.com/PhilippMayr/NKOS-bibliography>
