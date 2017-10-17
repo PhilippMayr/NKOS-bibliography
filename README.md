@@ -1,10 +1,11 @@
-# European NKOS Workshop content (2000-2016)
+# NKOS Workshop content (2000-...)
 
 Most workshop content from the past ECDL and TPDL is covered and linked on the following website:
 <http://hypermedia.research.southwales.ac.uk/kos/nkos/>
 
 All paper presentations from the NKOS workshops are stored in single bibtex files (`ECDL[year].bib`, `TPDL[year].bib`). Introduction presentations are not covered in the bib files. See folder `bibtex`.
 
+## European NKOS activities
 * 2000 – at ECDL (European Conference on Digital Libraries), Lisbon, Portugal.
 ... Links to the original ECDL workshops (2003-2005) are missing (see below). 
 * 2006 – at ECDL, Alicante, Spain.
@@ -28,9 +29,6 @@ Former copies of the pages of the ECDL workshops (2003-2005) could be located in
 
 The NKOS bibliography data set has been used in the paper "Analyzing the research output presented at European Networked Knowledge Organization Systems workshops (2000-2015)", see http://ceur-ws.org/Vol-1676/paper1.pdf at the 15th NKOS workshop in Hannover, Germany.
 
-## Other NKOS activities
-Special issues on NKOS (2001, 2004, 2006, 2016), NKOS workshop at ICADL 2015 and NKOS session at ISKOUK 2011.
-
 ## US NKOS activities
 * 1998/1997 -  at the  ACM Digital Libraries Conferences [no programme available]
 * 1999 - ACM Digital Libraries Conference in Berkeley [to be added]
@@ -42,6 +40,10 @@ Special issues on NKOS (2001, 2004, 2006, 2016), NKOS workshop at ICADL 2015 and
 * 2008 - Joint NKOS-CENDI Workshop in Washington
 * 2009 - Joint NKOS-CENDI Workshop in Beltsville
 * 2012 - Joint NKOS-CENDI Workshop in Washington
+
+## Other NKOS activities
+Special issues on NKOS (2001, 2004, 2006, 2016), NKOS workshop at ICADL 2015 and NKOS session at ISKOUK 2011.
+
 
 ## Publications
 In folder `publications` we store papers and data of publications which use the NKOS Bibliography dataset.
