@@ -1,11 +1,13 @@
-# NKOS Workshop content (2000-...)
+# NKOS bibliography
 
-Most workshop content from the past ECDL and TPDL is covered and linked on the following website:
-<http://hypermedia.research.southwales.ac.uk/kos/nkos/>
+In this bibliography we cover mostly workshop content from the past NKOS workshops.
 
 All paper presentations from the NKOS workshops are stored in single bibtex files (`ECDL[year].bib`, `TPDL[year].bib`). Introduction presentations are not covered in the bib files. See folder `bibtex`.
 
 ## European NKOS activities
+The past workshops at ECDL and TPDL are covered and linked on the following website:
+<http://hypermedia.research.southwales.ac.uk/kos/nkos/>
+
 * 2000 – at ECDL (European Conference on Digital Libraries), Lisbon, Portugal.
 ... Links to the original ECDL workshops (2003-2005) are missing (see below). 
 * 2006 – at ECDL, Alicante, Spain.
