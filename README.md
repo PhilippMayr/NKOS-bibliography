@@ -22,6 +22,8 @@ The past workshops at ECDL and TPDL are covered and linked on the following webs
 * 2015 – at TPDL, Poznań, Poland.
 * 2016 - at TPDL, Hannover, Germany.
 * 2016 - at Dublin Core, Copenhagen, Denmark.
+* 2017 - at TPDL, Thessaloniki, Greece.
+* 2018 - at TPDL / Dublin Core, Porto, Portugal.
 
 Former copies of the pages of the ECDL workshops (2003-2005) could be located in the Internet Archive (see links below).
 
