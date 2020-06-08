@@ -1,6 +1,6 @@
 # NKOS bibliography
 
-In this bibliography we cover mostly workshop content from the past NKOS workshops.
+In this bibliography we cover mostly workshop content from the past NKOS workshops and NKOS special issues.
 
 All paper presentations from the NKOS workshops are stored in single bibtex files (`ECDL[year].bib`, `TPDL[year].bib`). Introduction presentations are not covered in the bib files. See folder `bibtex`.
 
@@ -46,7 +46,7 @@ The NKOS bibliography data set has been used in the paper "Analyzing the researc
 * 2012 - Joint NKOS-CENDI Workshop in Washington
 
 ## Other NKOS activities
-Special issues on NKOS (2001, 2004, 2006, 2016), NKOS workshop at ICADL 2015 and NKOS session at ISKOUK 2011.
+Special issues on NKOS (2001, 2004, 2006, 2016, 2019, 2020), NKOS workshop at ICADL 2015 and NKOS session at ISKOUK 2011.
 
 
 ## Publications
